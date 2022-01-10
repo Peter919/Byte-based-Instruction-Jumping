@@ -134,12 +134,14 @@ static char run_instr(struct LengthTerminatedString * program, long * index, cha
                 }
                 break;
         }
-
+        
+        // .../neq
         if ((instr >> 1) & 1 && *accumulator != program->start[*index])
         {
                 ++move_amount_in_last_cmd;
         }
-
+        
+        // mvr/mvl
         if ((instr >> 0) & 1)
         {
                 for (char i = 0; i < move_amount_in_last_cmd; i++)
