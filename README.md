@@ -1,5 +1,5 @@
-# Byte-based-Instruction-Jumping
-THIS PROGRAM ONLY WORKS FOR WINDOWS (i think).
+# Thanks for opening this page :)
+I'm pretty sure this program only works for windows, because it uses system commands and notepad (I've never really used Linux or iOS)
 
 To learn how BIJ programs work, open this link: https://esolangs.org/wiki/Byte-based_Instruction_Jumping
 
