@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Byte-based Instruction Jumping" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Longchars and Ascii/;Files and Translation/;Core Process/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Byte-based Instruction Jumping" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Byte-based Instruction Jumping" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Byte-based Instruction Jumping.cbp" />
+		<Unit filename="Byte-based Instruction Jumping.depend" />
+		<Unit filename="Byte-based Instruction Jumping.layout" />
+		<Unit filename="ascii_convertion.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Longchars and Ascii/" />
+		</Unit>
+		<Unit filename="ascii_convertion.h">
+			<Option virtualFolder="Longchars and Ascii/" />
+		</Unit>
+		<Unit filename="ascii_table.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Longchars and Ascii/" />
+		</Unit>
+		<Unit filename="ascii_table.h">
+			<Option virtualFolder="Longchars and Ascii/" />
+		</Unit>
+		<Unit filename="filehandling.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Files and Translation/" />
+		</Unit>
+		<Unit filename="filehandling.h">
+			<Option virtualFolder="Files and Translation/" />
+		</Unit>
+		<Unit filename="hex_to_bij.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Files and Translation/" />
+		</Unit>
+		<Unit filename="hex_to_bij.h">
+			<Option virtualFolder="Files and Translation/" />
+		</Unit>
+		<Unit filename="ins_to_bij.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Files and Translation/" />
+		</Unit>
+		<Unit filename="ins_to_bij.h">
+			<Option virtualFolder="Files and Translation/" />
+		</Unit>
+		<Unit filename="instructionstruct.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Core Process/" />
+		</Unit>
+		<Unit filename="instructionstruct.h">
+			<Option virtualFolder="Core Process/" />
+		</Unit>
+		<Unit filename="log.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Core Process/" />
+		</Unit>
+		<Unit filename="log.h">
+			<Option virtualFolder="Core Process/" />
+		</Unit>
+		<Unit filename="longcharprocessing.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Longchars and Ascii/" />
+		</Unit>
+		<Unit filename="longcharprocessing.h">
+			<Option virtualFolder="Longchars and Ascii/" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Core Process/" />
+		</Unit>
+		<Unit filename="running.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Core Process/" />
+		</Unit>
+		<Unit filename="running.h">
+			<Option virtualFolder="Core Process/" />
+		</Unit>
+		<Unit filename="setup.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Core Process/" />
+		</Unit>
+		<Unit filename="setup.h">
+			<Option virtualFolder="Core Process/" />
+		</Unit>
+		<Unit filename="translation_from_bij.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Files and Translation/" />
+		</Unit>
+		<Unit filename="translation_from_bij.h">
+			<Option virtualFolder="Files and Translation/" />
+		</Unit>
+		<Unit filename="translation_to_bij.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="Files and Translation/" />
+		</Unit>
+		<Unit filename="translation_to_bij.h">
+			<Option virtualFolder="Files and Translation/" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
