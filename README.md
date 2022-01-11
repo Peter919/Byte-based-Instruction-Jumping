@@ -17,3 +17,8 @@ This is not a very sophisticated piece of software, and there are certainly thin
 - You cannot open multiple BIJ files without running this program multiple times.
 - main.c isn't as clean as it probably should be
 - running.c has a million line run_instr function
+
+#a
+##b
+###c
+####d
