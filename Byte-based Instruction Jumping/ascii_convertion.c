@@ -42,18 +42,18 @@ static void help_with_invalid_char(char * invchar)
 {
         logger(NONE, "Illegal character ");
 
-        int unicode_index = 0;
+        int unicode_char = 0;
         int multiplier = 1;
         for (int i = char_size(*invchar) - 1; i >= 0; i--)
         {
-                unicode_index += ((unsigned char) invchar[i]) * multiplier;
+                unicode_char += ((unsigned char) invchar[i]) * multiplier;
                 multiplier *= 256;
 
         }
-        logger(NONE, "%d.\n");
+        logger(NONE, "%d.\n", unicode_char);
 
         newlines(NONE, 2);
-        logger(NONE, "Open https://onlineutf8tools.com/convert-hexadecimal-to-utf8 and write %x in the blue \"hexadecimal\" text box.\n", unicode_index, unicode_index);
+        logger(NONE, "Open https://onlineutf8tools.com/convert-hexadecimal-to-utf8 and write %x in the blue \"hexadecimal\" text box.\n", unicode_char);
         logger(NONE, "The character that appears in the \"utf8\" text box is the invalid character you included in your BIJ file.");
         newlines(NONE, 4);
 }
