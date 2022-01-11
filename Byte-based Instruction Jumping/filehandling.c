@@ -95,7 +95,7 @@ void open_file_window(const char * programpath, char * fname)
 {
         logger(INFO, "Opening \"%s\" in a separate window ...\n", fname);
 
-        // it can't be a literal because it needs enough space for thsse filename at the end
+        // it can't be a literal because it needs enough space for the filename at the end
         char syscmd[256];
         sprintf(syscmd, "start \"%s\" \"%s\"", programpath, fname);
         system(syscmd);
