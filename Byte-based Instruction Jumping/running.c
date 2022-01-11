@@ -142,6 +142,9 @@ static char run_instr(struct LengthTerminatedString * program, long * index, cha
         }
         
         // mvr/mvl
+        // this could look better, but having an if in a for is probably slightly more
+        // time-consuming, as it has to check the if statement several times
+        // and i really want this programming language to be as fast as possible
         if ((instr >> 0) & 1)
         {
                 for (char i = 0; i < move_amount_in_last_cmd; i++)
