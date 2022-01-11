@@ -105,7 +105,10 @@ static char run_instr(struct LengthTerminatedString * program, long * index, cha
                 program->start[*index] = *accumulator;
                 break;
         case RED_CNS:
-                scanf(" %c", program->start + *index);
+                do
+                {
+                        scanf("%c", program->start + *index);
+                } while (program->start[*index] == '\n');
                 break;
         case WRT_CNS:
                 /// IMPORTANT!!!
