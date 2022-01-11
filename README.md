@@ -13,7 +13,7 @@ Do NOT edit hex or ins files without running main.c. These changes will be disca
 
 This is not a very sophisticated piece of software, and there are certainly things that could've been better:
 
-When you've started running a program, you can't exit manually. If the program is an infinite loop, you simply have to close the window.
-You cannot open multiple BIJ files without running this program multiple times.
-main.c isn't as clean as it probably should be
-running.c has a million line run function
+- When you've started running a program, you can't exit manually. If the program is an infinite loop, you simply have to close the window.
+- You cannot open multiple BIJ files without running this program multiple times.
+- main.c isn't as clean as it probably should be
+- running.c has a million line run_instr function
